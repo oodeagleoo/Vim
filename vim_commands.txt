@@ -1,0 +1,32 @@
+# To escape i.e. the insert mode hit
+ESC
+
+# Insert mode
+i
+
+# Quit vim (force)
+:q(!)
+
+# Save (write) changes to file
+:w
+
+# It is possible to combine multiple commands i.e.
+:wq
+
+# Delete one line
+dd
+
+# Delete several lines i.e. 10 lines
+10dd
+
+# Delete from line to line
+:5,10d
+
+# Indent multiple lines i.e. 5 lines
+5>>
+
+# Dedent multiple lines
+5<<
+
+# Undo one step
+u

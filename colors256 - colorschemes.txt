@@ -1,0 +1,5 @@
+# Install ncurses-term
+sudo apt-get install ncurses-term
+
+# Add this line to .bashrc
+export TERM=xterm-256color
